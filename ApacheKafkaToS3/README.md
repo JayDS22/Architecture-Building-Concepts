@@ -13,10 +13,10 @@ sudo yum install -y jq
 # Download Apache Kafka
 
 ```bash
-curl -O https://downloads.apache.org/kafka/3.2.1/kafka_2.13-3.2.1.tgz
-tar xvf kafka_2.13-3.2.1.tgz 
+wget https://archive.apache.org/dist/kafka/3.5.0/kafka_2.12-3.5.0.tgz
+tar xvf kafka_2.12-3.5.0.tgz 
 
-cd kafka_2.13-3.2.1
+cd kafka_2.12-3.5.0
 ```
 
 # Configure Kafka
